@@ -2,6 +2,13 @@ img {
   display: inline-block;
 }
 
+.signup {
+  font-size: 0.9em;
+  font-weight: lighter;
+  margin-bottom:-10px;
+  width: 40%;
+  background-color: #76a5e2;
+}
 .information {
   display: inline-block;
 }
@@ -15,9 +22,13 @@ h2 {
   color: #FFF;
 }
 
+p {
+  margin-top: -5px;
+}
 h3 {
   display: block;
   font-family: Inconsolata, arial, sans-serif;
+  padding: 0px;
   padding-left: 25px;
   font-size: 1.4em;
   text-shadow: 1px 1px #696969;
@@ -34,9 +45,10 @@ i {
 }
 
 .blc {
-  padding-top: -40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   padding-left: 150px;
-  font-family: Cabin, arial, sans-serif;
+  font-family: Revalia, arial, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
   display: block;
@@ -51,11 +63,29 @@ i {
   font-family: Cabin, arial, sans-serif;
   width: 30%;
   font-size: 1.3em;
+  padding-left: 130px;
 }
 
+.arrows {
+  padding-top: 12px;
+  margin-bottom: -20px;
+}
 .dates {
-  display: inline;
+  display: inline-block;
   font-family: Revalia, arial, sans-serif;
-  font-size: 1.2em;
-  padding-left: 150px;
+  padding-left: 100px;
+  padding-right: 10px;
+  background-color: #76a5e2;
+  border-radius: 25px;
+  width: 450px;
+  margin: 1px;
+  margin-right: 2px;
+}
+
+body {
+  border: solid 1px #000;
+  padding-bottom: 40px;
+  width: 70%;
+  border-radius: 20px;
+  background-color: #e28238;
 }
