@@ -1,0 +1,61 @@
+img {
+  display: inline-block;
+}
+
+.information {
+  display: inline-block;
+}
+h2 {
+  display: block;
+  font-family: Inconsolata, arial, sans-serif;
+  background-color: #3268b2;
+  border-radius: 25px;
+  padding: 10px;
+  padding-left: 25px;
+  color: #FFF;
+}
+
+h3 {
+  display: block;
+  font-family: Inconsolata, arial, sans-serif;
+  padding-left: 25px;
+  font-size: 1.4em;
+  text-shadow: 1px 1px #696969;
+}
+
+i {
+  padding-left: 25px;
+}
+
+.icons {
+  display: block;
+  padding-left: 150px;
+  margin-bottom: -30px;
+}
+
+.blc {
+  padding-top: -40px;
+  padding-left: 150px;
+  font-family: Cabin, arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  display: block;
+  background-color: #efe74f;
+  border-radius: 95px;
+  padding: 1px;
+  width: 20%;
+  margin-left: 150px;
+}
+
+.overview {
+  font-family: Cabin, arial, sans-serif;
+  width: 30%;
+  font-size: 1.3em;
+}
+
+.dates {
+  display: inline;
+  font-family: Revalia, arial, sans-serif;
+  font-size: 1.2em;
+  padding-left: 150px;
+}
