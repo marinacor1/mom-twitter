@@ -90,11 +90,12 @@ i {
   width: 250px;
   /*margin: 1px;
   margin-right: 2px;*/
+  padding: 1px;
   margin: auto;
 }
 
 body {
   padding-bottom: 40px;
   width: 60%;
-  background-color: #e28238;
+  /*background-color: #e28238;*/
 }
