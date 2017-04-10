@@ -1,8 +1,13 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
 img {
-  display: inline-block;
 }
 
 .signup {
+  order: 2;
   font-size: 0.9em;
   font-weight: lighter;
   margin-bottom:-10px;
@@ -10,7 +15,8 @@ img {
   background-color: #76a5e2;
 }
 .information {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
 }
 h2 {
   display: block;
@@ -42,21 +48,19 @@ i {
   display: block;
   padding-left: 150px;
   margin-bottom: -30px;
+  margin-top: -20px;
 }
 
 .blc {
-  /*margin-top: 10px;
-  margin-bottom: 10px;*/
+  margin-bottom: 10px;
   padding-left: 150px;
-  font-family: Revalia, arial, sans-serif;
+  font-family: Cabin, arial, sans-serif;
   font-weight: 400;
   font-size: 1.5em;
-  /*display: block;*/
   background-color: #efe74f;
   border-radius: 95px;
   padding: 1px;
   width: 50%;
-  /*margin-left: 150px;*/
   margin: auto;
 }
 
@@ -70,7 +74,7 @@ i {
 
 .arrows {
   padding-top: 12px;
-  margin-bottom: -20px;
+  margin: auto;
 }
 
 .parent {
@@ -81,21 +85,22 @@ i {
   flex-direction: column;
 }
 .dates {
-  /*justify-content: flex-end;*/
-  font-family: Revalia, arial, sans-serif;
-  /*padding-left: 100px;*/
-  /*padding-right: 10px;*/
+  font-family: Cabin, arial, sans-serif;
   background-color: #76a5e2;
   border-radius: 25px;
   width: 250px;
-  /*margin: 1px;
-  margin-right: 2px;*/
   padding: 1px;
   margin: auto;
 }
 
+.link {
+  font-size:0.8em;
+  width: 300px;
+  padding-left: 350px;
+  margin-top: -10px;
+  text-shadow: 1px 1px red;
+}
 body {
   padding-bottom: 40px;
   width: 60%;
-  /*background-color: #e28238;*/
 }
